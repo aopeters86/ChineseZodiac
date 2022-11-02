@@ -9,7 +9,7 @@ public class ChineseZodiac {
 		System.out.println("Enter a year: ");
 		int year = input.nextInt();
 		input.close();
-		
+		//co,ment
 		switch (year % 12) {
 		case 0: System.out.println("Monkey"); break;
 		case 1: System.out.println("Rooster"); break;
